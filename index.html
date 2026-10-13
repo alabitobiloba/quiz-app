@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Quizzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="start-screen">
+        <h1>My Quizzer</h1>
+        <p>Test your football knowledge across 10 questions!</p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <div id="quiz-screen" class="hide">
+        <div id="question-container">Question goes here</div>
+
+        <div id="options-container">
+          <button class="option-btn">Option 1</button>
+          <button class="option-btn">Option 2</button>
+          <button class="option-btn">Option 3</button>
+          <button class="option-btn">Option 4</button>
+        </div>
+
+        <div id="controls">
+          <button id="previous-btn" class="btn-hide">Previous</button>
+          <button id="submit-btn" class="btn-hide">Submit</button>
+          <button id="next-btn" class="btn-hide">Next</button>
+          <button id="finish-review-btn" class="btn-hide">Back to Score</button>
+        </div>
+      </div>
+
+      <div id="score-screen" class="hide">
+        <h2>Quiz Completed! 🎉</h2>
+        <p id="final-score">You scored 4 out of 5!</p>
+        <button id="review-btn">Review Answers</button>
+        <button id="restart-btn">Retake Quiz</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
