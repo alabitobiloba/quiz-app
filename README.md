@@ -10,7 +10,7 @@ A JavaScript quiz app that scores your answers and shows the corrections once th
 
 - Scores your answers at the end of the quiz
 - Shows the correct answers for the questions you got wrong
-- [Add any other feature it has, e.g. works on mobile screens]
+- Works on mobile screens
 
 ## Built With
 
